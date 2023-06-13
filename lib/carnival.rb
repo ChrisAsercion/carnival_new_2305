@@ -16,8 +16,9 @@ class Carnival
     end
   end
 
-  #This was my first attempt at most_popular_ride which I determined inadequate because it was checking
-  #the all the rides the visitor had taken up to that point. A helper accumulator(amount_of_riders) was added to ride.rb to easily get through this
+  #Below was my first attempt at most_popular_ride which I determined inadequate because it was checking
+  #all the rides the visitor had taken up to that point.
+  #A helper accumulator(amount_of_riders) was added to ride.rb to easily get through this method
 
   # def most_popular_ride
   #   most_frequented_ride = @rides.max_by do |ride|
